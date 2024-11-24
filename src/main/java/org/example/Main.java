@@ -9,9 +9,13 @@ public class Main {
     public static void main(String[] args) {
         // Create instances of the calculators
         Calculator calculator = new Calculator();
+
         ComplexNumberCalculator complexNumberCalculator = new ComplexNumberCalculator(calculator);
+
         FinancialCalculator financialCalculator = new FinancialCalculator(calculator);
+
         VectorCalculator vectorCalculator = new VectorCalculator(calculator);
+
         VolumeCalculator volumeCalculator = new VolumeCalculator(calculator);
 
         int choice;
